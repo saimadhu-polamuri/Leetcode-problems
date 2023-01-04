@@ -40,7 +40,6 @@ Constraints:
 """
 
 from typing import List
-import pdb
 
 class Solution:
     def minimumRounds(self, tasks: List[int]) -> int:
@@ -68,8 +67,6 @@ class Solution:
                 frequencies[i] += 1
 
         return frequencies
-
-
 
 if __name__ == "__main__":
     solution = Solution()
